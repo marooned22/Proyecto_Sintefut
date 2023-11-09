@@ -5,54 +5,172 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>SinteFut</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="canchas.css">
     <script src="https://kit.fontawesome.com/99021fb06b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="menu">
-        <ul>
-            
-            <li> <a href="main.html"></a> <img src="img/mstile-150x150.png" width="80px" height="60x" ></li>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #1690a0;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="main.html">
+                    <img class="logoMenu" src="img/logo central.jpg" alt=""  width="40">
+                    Sintefut
+                </a>
                 
-            <li><a href="#">Servicios</a></li>
-            <li><a href="#">Reservas</a></li>
-            <li><a href="canchas.html">Canchas</a></li>
-            <li><a href="registro.html">Registrarme</a></li>
-            <li><a href="login.html">Iniciar Sesion</a></li>
-            
-            
-        </ul>
-    </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="main.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Reservas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="canchas.html">Canchas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.html">Registro</a>
+                      </li>
+                      
+                      <div class="barra"></div>
+                      <!-- <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li>-->
+                    </ul>
+                  </div>
+    
+    
+              <form class="d-flex">
+                <input class="form-control me-2" id="elementoClicable" type="search" placeholder="¿Que deseas buscar hoy? " aria-label="Search">
+                <button class="btn btn-dark" type="submit">Buscar</button>
+              </form>
+    
+              
+    
+            </div>
+        </nav>
+    </header>
     <main>
         
+        <div class="canchasRec">
+
+            <div class="card" style="width: 18rem;">
+              <img src="img/canchas/bombonera.jpg" class="card-img-top" height="250px" alt="...">
+              <div class="card-body">
+                <h4>La Bombonera</h4>
+
+                <p class="card-text">
+                  Calle 20 #36a-51
+                  
+                </p>
+                <p class="card-text">
+                  Descripcion: Cancha de futbol 5 en grama sintetica. <br>
+                  Localidad: Buganviles
+                </p>
+                <a href="canchas.html" class="btn btn-dark">Mas Detalles</a>
+
+                
+              </div>
+              
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="img/canchas/tercer tiempo.jpg" class="card-img-top" alt="..." height="250px" >
+              <div class="card-body">
+                <h4>Tercer Tiempo</h4>
+                
+                <p class="card-text">
+                  Cl. 55 #17-98 17-2 a
+                  
+                </p>
+                <p class="card-text">
+                  Descripcion: Canchas de futbol 8 en grama sintetica. <br>
+                  Localidad: Comuna 2
+                </p>
+                <a href="canchas.html" class="btn btn-dark">Mas Detalles</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="img/canchas/8gol.jpeg" class="card-img-top" height="250px"  alt="...">
+              <div class="card-body">
+                <h4>8 Gol</h4>
+                
+                <p class="card-text">
+                  Cra. 6 #26 81
+                  
+                </p>
+                <p class="card-text">
+                  Descripcion: Canchas de futbol sala<br>
+                  Localidad: Comuna 2
+                </p>
+                <a href="canchas.html" class="btn btn-dark">Mas Detalles</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="img/canchas/soccer team.jpg" class="card-img-top" height="250px" alt="...">
+              <div class="card-body">
+                <h4>Soccer Time</h4>
+                
+                <p class="card-text">
+                  Cl. 55 #17-98 17-2 a
+                  
+                </p>
+                <p class="card-text">
+                  Descripcion: Canchas de futbol 8 en grama sintetica. <br>
+                  Localidad: Comuna 2
+                </p>
+                <a href="canchas.html" class="btn btn-dark">Mas Detalles</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="img/canchas/el monumental.jpg" class="card-img-top" height="250px" alt="...">
+              <div class="card-body">
+                <h4>El Monumental</h4>
+                
+                <p class="card-text">
+                  Cl. 55 #17-98 17-2 a
+                  
+                </p>
+                <p class="card-text">
+                  Descripcion: Canchas de futbol 8 en grama sintetica. <br>
+                  Localidad: Comuna 2
+                </p>
+                <a href="canchas.html" class="btn btn-dark">Mas Detalles</a>
+              </div>
+            </div>
+          </div>
         
         
-        
-        <section>
-            <h1>
-                Bambonera
-            </h1>
+    
+
+        <section class="cancha1">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.5863381325044!2d-75.29113638868216!3d2.9345510544204116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b75a0fdc35e79%3A0x31fa451f543cbace!2sCancha%20la%20bombonera!5e0!3m2!1ses!2sco!4v1693498759886!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>
         </section>
 
-        <section>
-            <h1>Canchas Sinteticas Wembley</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.522487981602!2d-75.29404252429065!3d2.9524070543290097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b75030c12c467%3A0x206f3ffcb896dad1!2sCanchas%20Sinteticas%20Wembley!5e0!3m2!1ses!2sco!4v1694700521761!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
-
-        <section>
-            <h1>Tercer tiempo</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15938.032446635856!2d-75.30665094458008!3d2.956412600000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3b74535c77bed5%3A0x4bb6090a833706d2!2sTercer%20Tiempo%20Complejo%20Deportivo!5e0!3m2!1ses!2sco!4v1694700645221!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+        
     </main>
+
+    <script src="main.js"></script>
     <footer>
         <div id="footer">
             <section id="parte1">
-                <h3>SIGUENOS</h3>
-                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                <h3><b>Síguenos</b></h3>
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
+                
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
+                <a href="https://twitter.com/home"><i class="fa-brands fa-twitter" style="color: #000000;"></i></a>
+                <a href="https://www.youtube.com"><i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
             </section>
             
             </div>
@@ -62,4 +180,5 @@
     </footer>
     
 </body>
+
 </html>
